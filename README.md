@@ -17,10 +17,10 @@ Creating a comprehensive Linux learning syllabus for a DevOps engineer involves 
 ### **2. Basic Linux Commands**
 
 - **[2.1. File System Navigation](./02-Basic-Linux-Commands/2.1-File-System-Navigation.md)**: `ls`, `cd`, `pwd`, `find`, `locate`
-- **File Operations**: `cp`, `mv`, `rm`, `mkdir`, `rmdir`, `touch`
-- **Text Manipulation**: `cat`, `less`, `more`, `head`, `tail`, `grep`, `sed`, `awk`
-- **Permissions**: `chmod`, `chown`, `chgrp`, understanding file permissions
-- **Compression and Archiving**: `tar`, `gzip`, `gunzip`, `zip`, `unzip`
+- **[2.2. File Operations](./02-Basic-Linux-Commands/2.2-File-Operations.md)**: `cp`, `mv`, `rm`, `mkdir`, `rmdir`, `touch`
+- **[2.3. Text Manipulation](./02-Basic-Linux-Commands/2.3-Text-Manipulation.md)**: `cat`, `less`, `more`, `head`, `tail`, `grep`, `sed`, `awk`
+- **2.4. Permissions**: `chmod`, `chown`, `chgrp`, understanding file permissions
+- **2.5. Compression and Archiving**: `tar`, `gzip`, `gunzip`, `zip`, `unzip`
 
 ### **3. Shell Scripting**
 
