@@ -19,14 +19,15 @@ Creating a comprehensive Linux learning syllabus for a DevOps engineer involves 
 - **[2.1. File System Navigation](./02-Basic-Linux-Commands/2.1-File-System-Navigation.md)**: `ls`, `cd`, `pwd`, `find`, `locate`
 - **[2.2. File Operations](./02-Basic-Linux-Commands/2.2-File-Operations.md)**: `cp`, `mv`, `rm`, `mkdir`, `rmdir`, `touch`
 - **[2.3. Text Manipulation](./02-Basic-Linux-Commands/2.3-Text-Manipulation.md)**: `cat`, `less`, `more`, `head`, `tail`, `grep`, `sed`, `awk`
-- **2.4. Permissions**: `chmod`, `chown`, `chgrp`, understanding file permissions
-- **2.5. Compression and Archiving**: `tar`, `gzip`, `gunzip`, `zip`, `unzip`
+- **[2.4. Permissions](./02-Basic-Linux-Commands/2.4-Permissions.md)**: `chmod`, `chown`, `chgrp`, `umask`, understanding file permissions
+- **[2.5. Compression and Archiving](./02-Basic-Linux-Commands/2.5-Compression-and-Archiving.md)**: `tar`, `gzip`, `gunzip`, `zip`, `unzip`
+- **[2.6. Piping and Redirection](./02-Basic-Linux-Commands/2.6-Piping-and-Redirection.md)**: `|` (pipe), `>` (redirect output), `>>` (append output), `tee`
 
 ### **3. Shell Scripting**
 
-- **Basics**: Writing simple scripts, variables, control structures (if, case, loops)
-- **Advanced**: Functions, error handling, and script debugging
-- **Useful Commands**: `cron`, `at`, `sleep`, `nohup`
+- **[3.1. Basics](./03-Shell-Scripting/3.1-Basics.md)**: Writing simple scripts, variables, control structures (if, case, loops)
+- **3.2. Advanced**: Functions, error handling, and script debugging
+- **3.3. Useful Commands**: `cron`, `at`, `sleep`, `nohup`
 
 ### **4. Linux File System**
 
@@ -34,6 +35,7 @@ Creating a comprehensive Linux learning syllabus for a DevOps engineer involves 
 - **Mounting and Unmounting**: `mount`, `umount`, `fstab`
 - **Disk Management**: `df`, `du`, `fdisk`, `mkfs`, `fsck`, `parted`
 - **File Systems**: ext4, xfs, btrfs
+- **Soft and Hard Links**: Understanding soft links (`ln -s`) and hard links (`ln`)
 
 ### **5. User and Group Management**
 
