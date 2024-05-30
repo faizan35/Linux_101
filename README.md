@@ -31,15 +31,15 @@ Creating a comprehensive Linux learning syllabus for a DevOps engineer involves 
 
 ### **4. Linux File System**
 
-- **Structure**: Understanding `/`, `/home`, `/var`, `/etc`, `/usr`, and other directories
-- **Mounting and Unmounting**: `mount`, `umount`, `fstab`
-- **Disk Management**: `df`, `du`, `fdisk`, `mkfs`, `fsck`, `parted`
-- **File Systems**: ext4, xfs, btrfs
-- **Soft and Hard Links**: Understanding soft links (`ln -s`) and hard links (`ln`)
+- **[4.1. Structure](./04-Linux-File-System/4.1-Structure.md)**: Understanding `/`, `/home`, `/var`, `/etc`, `/usr`, and other directories
+- **[4.2. Mounting and Unmounting](./04-Linux-File-System/4.2-Mounting-and-Unmounting.md)**: `mount`, `umount`, `fstab`
+- **[4.3. Disk Management](./04-Linux-File-System/4.3-Disk-Management.md)**: `df`, `du`, `fdisk`, `mkfs`, `fsck`, `parted`
+- **[4.4. File Systems](./04-Linux-File-System/4.4-File-Systems.md)**: ext4, xfs, btrfs
+- **[4.5. Soft and Hard Links](./04-Linux-File-System/4.5-Soft-and-Hard-Links.md)**: Understanding soft links (`ln -s`) and hard links (`ln`)
 
 ### **5. User and Group Management**
 
-- **Users**: `useradd`, `userdel`, `usermod`
+- **[5.1. Users](./05-User-Group-Management/5.1-Users.md)**: `useradd`, `userdel`, `usermod`
 - **Groups**: `groupadd`, `groupdel`, `groupmod`
 - **Password Management**: `passwd`, `chage`
 
