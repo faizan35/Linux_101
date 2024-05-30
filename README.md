@@ -40,12 +40,12 @@ Creating a comprehensive Linux learning syllabus for a DevOps engineer involves 
 ### **5. User and Group Management**
 
 - **[5.1. Users](./05-User-Group-Management/5.1-Users.md)**: `useradd`, `userdel`, `usermod`
-- **Groups**: `groupadd`, `groupdel`, `groupmod`
-- **Password Management**: `passwd`, `chage`
+- **[5.2. Groups](./05-User-Group-Management/5.2-Groups.md)**: `groupadd`, `groupdel`, `groupmod`
+- **[5.3. Password Management](./05-User-Group-Management/5.3-Password-Management.md)**: `passwd`, `chage`
 
 ### **6. Networking**
 
-- **Basics**: IP addressing, subnetting, and CIDR notation
+- **[6.1. Basics](./06-Networking/6.1-Basics.md)**: IP addressing, subnetting, and CIDR notation
 - **Network Configuration**: `ifconfig`, `ip`, `nmcli`, `netplan`
 - **DNS**: `dig`, `nslookup`
 - **Troubleshooting**: `ping`, `traceroute`, `netstat`, `ss`, `tcpdump`
