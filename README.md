@@ -45,19 +45,18 @@ Creating a comprehensive Linux learning syllabus for a DevOps engineer involves 
 
 ### **6. Networking**
 
-- **[6.1. Basics](./06-Networking/6.1-Basics.md)**: IP addressing, subnetting, and CIDR notation
-- **Network Configuration**: `ifconfig`, `ip`, `nmcli`, `netplan`
-- **DNS**: `dig`, `nslookup`
-- **Troubleshooting**: `ping`, `traceroute`, `netstat`, `ss`, `tcpdump`
-- **Services**: SSH (`ssh`, `sshd_config`), FTP, HTTP/HTTPS
+- **[6.1. Network Configuration](./06-Networking/6.1-Network-Configuration.md)**: `ifconfig`, `ip`, `nmcli`, `netplan`
+- **[6.2. DNS](./06-Networking/6.2-DNS.md)**: `dig`, `nslookup`
+- **[6.3. Troubleshooting](./06-Networking/6.3-Troubleshooting.md)**: `ping`, `traceroute`, `netstat`, `ss`, `tcpdump`
+- **[6.4. `SSH`, `SCP`](./06-Networking/6.4-SSH-SCP.md)**
 
 ### **7. System Administration**
 
-- **Package Management**: `apt`, `yum`, `dnf`, `snap`
-- **Processes**: `ps`, `top`, `htop`, `kill`, `nice`, `renice`
-- **System Monitoring**: `vmstat`, `iostat`, `dstat`, `glances`
-- **Logging**: `syslog`, `journalctl`, configuring log rotation
-- **Systemd**: Managing services with `systemctl`, creating and managing units
+- **[7.1. Package Management](./07-System-Administration/7.1-Package-Management.md)**: `apt`, `yum`, `dnf`, `snap`
+- **[7.2. Processes](./07-System-Administration/7.2-Processes.md)**: `ps`, `top`, `htop`, `kill`, `nice`, `renice`
+- **7.3. System Monitoring**: `vmstat`, `iostat`, `dstat`, `glances`
+- **7.4. Logging**: `syslog`, `journalctl`, configuring log rotation
+- **7.5. Systemd**: Managing services with `systemctl`, creating and managing units
 
 ### **8. Security**
 
@@ -67,42 +66,4 @@ Creating a comprehensive Linux learning syllabus for a DevOps engineer involves 
 - **User Security**: `sudo`, managing sudoers, and least privilege principle
 - **Encryption**: GPG, SSL/TLS basics
 
-### **9. Virtualization and Containers**
-
-- **Virtualization**: KVM, QEMU basics
-- **Containers**: Docker, basic commands, and concepts (images, containers, volumes, networks)
-- **Orchestration**: Introduction to Kubernetes, basic kubectl commands
-
-### **10. Automation and Configuration Management**
-
-- **Introduction to Automation**: Understanding the need for automation in DevOps
-- **Configuration Management Tools**: Ansible, basic playbooks, and modules
-- **Scripting for Automation**: Using shell scripts, Python scripts for routine tasks
-
-### **11. DevOps Tools and Practices**
-
-- **Version Control**: Git basics, branching, merging
-- **CI/CD Pipelines**: Jenkins, GitLab CI/CD, basic pipeline creation
-- **Infrastructure as Code (IaC)**: Introduction to Terraform, creating and managing infrastructure
-
-### **12. Advanced Topics**
-
-- **Performance Tuning**: Kernel tuning parameters, optimizing system performance
-- **High Availability and Load Balancing**: Concepts, tools (HAProxy, Keepalived)
-- **Backup and Recovery**: Strategies, tools (rsync, tar, etc.)
-- **Monitoring and Alerting**: Prometheus, Grafana basics
-
-### **13. Practical Projects**
-
-- **Project 1**: Set up a LAMP stack (Linux, Apache, MySQL, PHP) with automation scripts
-- **Project 2**: Configure a secure SSH server with custom login messages and key-based authentication
-- **Project 3**: Create a CI/CD pipeline using Jenkins and deploy a sample application
-- **Project 4**: Deploy and manage a Dockerized application with Kubernetes
-
-### **Resources and Further Learning**
-
-- **Books**: "The Linux Command Line" by William Shotts, "Linux Bible" by Christopher Negus
-- **Online Courses**: Coursera, Udemy, edX for Linux and DevOps-related courses
-- **Documentation**: Official documentation for Linux distributions, Docker, Kubernetes, Ansible, etc.
-
-This syllabus should provide a structured path for mastering Linux as a DevOps engineer, ensuring a solid foundation and the ability to handle complex tasks and projects.
+---
