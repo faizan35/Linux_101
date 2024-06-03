@@ -1,10 +1,4 @@
-# Linux_101
-
-```sh
-git clone https://github.com/faizan35/Linux_101.git
-```
-
----
+# Linux 101
 
 Creating a comprehensive Linux learning syllabus for a DevOps engineer involves covering foundational topics, system administration, networking, security, and automation. Here's a structured syllabus to follow:
 
@@ -54,13 +48,13 @@ Creating a comprehensive Linux learning syllabus for a DevOps engineer involves 
 
 - **[7.1. Package Management](./07-System-Administration/7.1-Package-Management.md)**: `apt`, `yum`, `dnf`, `snap`
 - **[7.2. Processes](./07-System-Administration/7.2-Processes.md)**: `ps`, `top`, `htop`, `kill`, `nice`, `renice`
-- **7.3. System Monitoring**: `vmstat`, `iostat`, `dstat`, `glances`
-- **7.4. Logging**: `syslog`, `journalctl`, configuring log rotation
-- **7.5. Systemd**: Managing services with `systemctl`, creating and managing units
+- **[7.3. System Monitoring](./07-System-Administration/7.3-System-Monitoring.md)**: `vmstat`, `iostat`, `dstat`, `glances`
+- **[7.4. Logging](./07-System-Administration/7.4-Logging.md)**: `syslog`, `journalctl`, configuring log rotation
+- **[7.5. Systemd](./07-System-Administration/7.5-Systemd.md)**: Managing services with `systemctl`, creating and managing units
 
 ### **8. Security**
 
-- **File and Network Security**: `iptables`, `ufw`, `firewalld`
+- **[8.1. File and Network Security](./08-Security/8.1-File-Network-Security.md)**: `iptables`, `ufw`, `firewalld`
 - **SELinux**: Basic concepts and commands (`getenforce`, `setenforce`, `semanage`)
 - **AppArmor**: Basics and usage
 - **User Security**: `sudo`, managing sudoers, and least privilege principle
