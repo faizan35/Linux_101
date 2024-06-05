@@ -55,9 +55,9 @@ Creating a comprehensive Linux learning syllabus for a DevOps engineer involves 
 ### **8. Security**
 
 - **[8.1. File and Network Security](./08-Security/8.1-File-Network-Security.md)**: `iptables`, `ufw`, `firewalld`
-- **SELinux**: Basic concepts and commands (`getenforce`, `setenforce`, `semanage`)
-- **AppArmor**: Basics and usage
-- **User Security**: `sudo`, managing sudoers, and least privilege principle
-- **Encryption**: GPG, SSL/TLS basics
+- **[8.2. SELinux](./08-Security/8.2-SELinux.md)**: Basic concepts and commands (`getenforce`, `setenforce`, `semanage`)
+- **[8.3. AppArmor](./08-Security/8.3-AppArmor.md)**: Basics and usage
+- **[8.4. User Security](./08-Security/8.4-User-Security.md)**: `sudo`, managing sudoers, and least privilege principle
+- **[8.5. Encryption](./08-Security/8.5-Encryption.md)**: GPG, SSL/TLS basics
 
 ---
